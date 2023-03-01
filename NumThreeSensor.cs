@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class NumThreeSensor : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject numberThree;
 
-
-    [SerializeField] private GameObject numberThree;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("player"))

@@ -8,14 +8,15 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     private PauseInput _pauseInput;
-    public static bool _gameIsPaused =false;
-    [SerializeField] private GameObject _pausePanel;
+    public static bool _gameIsPaused = false;
+
+    [SerializeField]
+    private GameObject _pausePanel;
 
     private void Awake()
     {
         _pauseInput = new PauseInput();
     }
-
 
     private void Start()
     {
@@ -24,12 +25,7 @@ public class PauseMenu : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
+    void Update() { }
 
     private void DeterminePause()
     {
@@ -49,7 +45,6 @@ public class PauseMenu : MonoBehaviour
         _pausePanel.SetActive(true);
         AudioListener.pause = true;
         _gameIsPaused = true;
-
     }
 
     public void ResumeGame()
@@ -71,14 +66,7 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("Quitting Game!");
         Application.Quit();
     }
-    
-    
-    
-    
-    
-    
-    
-    
+
     private void OnEnable()
     {
         _pauseInput.Enable();

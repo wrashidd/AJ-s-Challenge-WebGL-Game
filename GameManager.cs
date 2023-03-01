@@ -4,25 +4,28 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public  class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    
     public static GameManager instance;
 
-    [SerializeField] private GameObject _gameOverMessage;
-    [SerializeField] private GameObject _levelOneMessage;
-    [SerializeField] private GameObject _digitsPanel;
-    private Scene _scene;
-    
-    [SerializeField] private AudioClip _gameOverSoundClip;
-    private AudioSource _audioSource;
+    [SerializeField]
+    private GameObject _gameOverMessage;
 
+    [SerializeField]
+    private GameObject _levelOneMessage;
+
+    [SerializeField]
+    private GameObject _digitsPanel;
+    private Scene _scene;
+
+    [SerializeField]
+    private AudioClip _gameOverSoundClip;
+    private AudioSource _audioSource;
 
     private void Awake()
     {
         instance = this;
     }
-
 
     // Start is called before the first frame update
     void Start()
@@ -38,22 +41,18 @@ public  class GameManager : MonoBehaviour
         {
             _audioSource.clip = _gameOverSoundClip;
         }
-        
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    void Update() { }
 
     public void HandleGameOver()
     {
         StartCoroutine(GameOver());
     }
+
     public IEnumerator GameOver()
     {
-       
         _levelOneMessage.SetActive(false);
         _digitsPanel.SetActive(false);
         _audioSource.Play();
@@ -62,6 +61,4 @@ public  class GameManager : MonoBehaviour
         yield return new WaitForSeconds(4f);
         SceneManager.LoadScene(_scene.name);
     }
-    
-    
 }

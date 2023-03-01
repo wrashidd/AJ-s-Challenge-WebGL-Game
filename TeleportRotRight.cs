@@ -16,5 +16,4 @@ public class TeleportRotRight : MonoBehaviour
     {
         TeleportRotator._rotationRightIsOn = false;
     }
-
 }

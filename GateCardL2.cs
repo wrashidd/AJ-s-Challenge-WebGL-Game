@@ -2,17 +2,19 @@ using UnityEngine;
 
 public class GateCardL2 : MonoBehaviour
 {
-    [SerializeField] private GameObject qRIcon;
+    [SerializeField]
+    private GameObject qRIcon;
 
-    [SerializeField] private AudioClip _cardPickedUpSoundClip;
+    [SerializeField]
+    private AudioClip _cardPickedUpSoundClip;
     private AudioSource _audioSource;
+
     private void Awake()
     {
         if (qRIcon != null)
         {
             qRIcon.SetActive(false);
         }
-
     }
 
     // Start is called before the first frame update
@@ -31,10 +33,7 @@ public class GateCardL2 : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-    }
+    void Update() { }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -45,8 +44,5 @@ public class GateCardL2 : MonoBehaviour
             qRIcon.SetActive(true);
             Destroy(gameObject, 0.17f);
         }
-
     }
-
-
 }

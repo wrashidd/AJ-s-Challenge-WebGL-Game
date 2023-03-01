@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class GateSensor : MonoBehaviour
 {
-    [SerializeField] private AudioClip _gateDenySoundClip;
+    [SerializeField]
+    private AudioClip _gateDenySoundClip;
     private AudioSource _audioSource;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,10 +24,7 @@ public class GateSensor : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    void Update() { }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -35,13 +33,4 @@ public class GateSensor : MonoBehaviour
             _audioSource.Play();
         }
     }
-
-
-    /*private void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.CompareTag("player"))
-        {
-            _audioSource.Play();
-        }
-    }*/
 }

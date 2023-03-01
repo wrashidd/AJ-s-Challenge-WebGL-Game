@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class TeleportTwo : MonoBehaviour
 {
-
     //[SerializeField] private GameObject TeleportTwoExitPosition;
-    [SerializeField] private AudioClip _teleportSoundClip;
+    [SerializeField]
+    private AudioClip _teleportSoundClip;
     private AudioSource _audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,11 +25,7 @@ public class TeleportTwo : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    void Update() { }
 
     private void OnTriggerEnter(Collider other)
     {

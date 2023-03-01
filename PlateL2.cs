@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class PlateL2 : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject _plateMesh;
 
-
-    [SerializeField] private GameObject _plateMesh;
-    [SerializeField] private GameObject _plateSphere;
+    [SerializeField]
+    private GameObject _plateSphere;
     public static int plateAvailable = 0;
 
     // Start is called before the first frame update
@@ -19,10 +20,7 @@ public class PlateL2 : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-    }
+    void Update() { }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -35,14 +33,11 @@ public class PlateL2 : MonoBehaviour
                 gameObject.GetComponent<BoxCollider>().enabled = false;
                 _plateMesh.SetActive(true);
                 Debug.Log(plateAvailable);
-
             }
             else if (plateAvailable <= 0)
             {
                 Debug.Log("Plate Available is 0");
-
             }
-
         }
     }
 }

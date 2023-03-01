@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class TeleporterOne : MonoBehaviour
 {
+    [SerializeField]
+    private AudioClip _teleportSoundClip;
 
-    [SerializeField] private AudioClip _teleportSoundClip;
-    [SerializeField] private GameObject TeleportOneExitPosition;
+    [SerializeField]
+    private GameObject TeleportOneExitPosition;
     private AudioSource _audioSource;
-
 
     // Start is called before the first frame update
     void Start()
@@ -24,16 +25,14 @@ public class TeleporterOne : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-    }
+    void Update() { }
 
     private void OnTriggerEnter(Collider other)
     {
         _audioSource.Play();
-        //other.transform.position = new Vector3(-8.7f, -23.825f, 40.827f);  
-        other.transform.position = TeleportOneExitPosition.gameObject.GetComponent<Transform>().position;
-
+        //other.transform.position = new Vector3(-8.7f, -23.825f, 40.827f);
+        other.transform.position = TeleportOneExitPosition.gameObject
+            .GetComponent<Transform>()
+            .position;
     }
 }

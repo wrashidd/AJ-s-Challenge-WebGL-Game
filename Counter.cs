@@ -8,17 +8,25 @@ using UnityEngine.SceneManagement;
 public class Counter : MonoBehaviour
 {
     private Scene scene;
-    [SerializeField] private TMP_Text digitI, digitV, digitX;
-    [SerializeField] private GameObject _LevelCompletionSign;
-    
+
+    [SerializeField]
+    private TMP_Text digitI,
+        digitV,
+        digitX;
+
+    [SerializeField]
+    private GameObject _LevelCompletionSign;
+
     private int _LevelSum = 0;
 
-    [SerializeField] private AudioClip _levelCompletionSoundClip;
+    [SerializeField]
+    private AudioClip _levelCompletionSoundClip;
     private AudioSource _audioSource;
 
     private bool _hasPlayedSound = false;
 
     private bool _hasRunCode = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +40,7 @@ public class Counter : MonoBehaviour
         }
         else
         {
-           _audioSource.clip = _levelCompletionSoundClip;
+            _audioSource.clip = _levelCompletionSoundClip;
         }
     }
 
@@ -46,7 +54,7 @@ public class Counter : MonoBehaviour
     {
         if (other.CompareTag("digitI"))
         {
-            digitI.color= Color.green;
+            digitI.color = Color.green;
             _LevelSum += 1;
         }
         if (other.CompareTag("digitV"))
@@ -76,7 +84,6 @@ public class Counter : MonoBehaviour
             //PlayerController.instance.deathRegister = false;
             StartCoroutine(Level1Reload());
             _hasRunCode = true;
-            
         }
     }
 

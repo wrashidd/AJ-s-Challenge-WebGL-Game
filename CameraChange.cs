@@ -7,13 +7,14 @@ using UnityEngine.InputSystem;
 
 public class CameraChange : MonoBehaviour
 {
-
     public GameObject thirdCam;
     public GameObject firstCam;
     public int camMode;
     private PlayerInput _playerInput;
     private bool _CameraSwitchButtonIsPressed;
-    [SerializeField] private GameObject _textChangeCameraViewMessage;
+
+    [SerializeField]
+    private GameObject _textChangeCameraViewMessage;
 
     private void Awake()
     {
@@ -23,17 +24,8 @@ public class CameraChange : MonoBehaviour
         _textChangeCameraViewMessage.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        // CameraChanger();
-    }
-
-
-
     void CameraChanger()
     {
-
         if (camMode == 1)
         {
             camMode = 0;
@@ -44,7 +36,6 @@ public class CameraChange : MonoBehaviour
         }
         StartCoroutine(CamChange());
     }
-
 
     IEnumerator CamChange()
     {
@@ -64,7 +55,6 @@ public class CameraChange : MonoBehaviour
         }
     }
 
-
     private void OnEnable()
     {
         _playerInput.CharacterControls.Enable();
@@ -74,6 +64,4 @@ public class CameraChange : MonoBehaviour
     {
         _playerInput.CharacterControls.Disable();
     }
-
-
 }

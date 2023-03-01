@@ -7,20 +7,29 @@ using UnityEngine.UIElements;
 
 public class TeleportRotator : MonoBehaviour
 {
-
     private float _speed = 40.0f;
     public static bool _rotationRightIsOn = false;
     public static bool _rotationLeftIsOn = false;
-    [SerializeField] private GameObject _teleportArchBlue;
-    [SerializeField] private GameObject _teleportArchOrange;
-    [SerializeField] private GameObject _teleportPlatformBlue;
-    [SerializeField] private GameObject _teleportPlatformOrange;
-    [SerializeField] private GameObject _teleportPedestalBlue;
-    [SerializeField] private GameObject _teleportPedestalOrange;
+
+    [SerializeField]
+    private GameObject _teleportArchBlue;
+
+    [SerializeField]
+    private GameObject _teleportArchOrange;
+
+    [SerializeField]
+    private GameObject _teleportPlatformBlue;
+
+    [SerializeField]
+    private GameObject _teleportPlatformOrange;
+
+    [SerializeField]
+    private GameObject _teleportPedestalBlue;
+
+    [SerializeField]
+    private GameObject _teleportPedestalOrange;
     private bool _teleportArchColorIsChanged = false;
     public static bool _teleportArchIsOpen;
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -44,7 +53,7 @@ public class TeleportRotator : MonoBehaviour
     {
         if (other.gameObject.CompareTag("player") && PlatformGate.keyIsAcquired == true)
         {
-           // transform.Rotate(0.0f, 90.0f, 0.0f, Space.World); 
+           // transform.Rotate(0.0f, 90.0f, 0.0f, Space.World);
            _rotationRightIsOn = true;
            
         }
@@ -59,19 +68,35 @@ public class TeleportRotator : MonoBehaviour
     {
         if (_rotationRightIsOn)
         {
-            Vector3 direction = new Vector3(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y -90.0f, transform.rotation.eulerAngles.z);
+            Vector3 direction = new Vector3(
+                transform.rotation.eulerAngles.x,
+                transform.rotation.eulerAngles.y - 90.0f,
+                transform.rotation.eulerAngles.z
+            );
             Quaternion targetRotation = Quaternion.Euler(direction);
-            this.transform.rotation = Quaternion.RotateTowards(this.transform.rotation, targetRotation, Time.deltaTime * _speed);
+            this.transform.rotation = Quaternion.RotateTowards(
+                this.transform.rotation,
+                targetRotation,
+                Time.deltaTime * _speed
+            );
         }
     }
-    
+
     void RotateNegativeSide()
     {
         if (_rotationLeftIsOn)
         {
-            Vector3 direction = new Vector3(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + 90.0f, transform.rotation.eulerAngles.z);
+            Vector3 direction = new Vector3(
+                transform.rotation.eulerAngles.x,
+                transform.rotation.eulerAngles.y + 90.0f,
+                transform.rotation.eulerAngles.z
+            );
             Quaternion targetRotation = Quaternion.Euler(direction);
-            this.transform.rotation = Quaternion.RotateTowards(this.transform.rotation, targetRotation, Time.deltaTime * _speed);
+            this.transform.rotation = Quaternion.RotateTowards(
+                this.transform.rotation,
+                targetRotation,
+                Time.deltaTime * _speed
+            );
         }
     }
 
@@ -79,10 +104,10 @@ public class TeleportRotator : MonoBehaviour
     {
         if (!_teleportArchIsOpen && _teleportArchColorIsChanged == false)
         {
-           _teleportPlatformOrange.SetActive(true);
-           _teleportPlatformBlue.SetActive(false);
-           _teleportPedestalOrange.SetActive(true);
-           _teleportPedestalBlue.SetActive(false);
+            _teleportPlatformOrange.SetActive(true);
+            _teleportPlatformBlue.SetActive(false);
+            _teleportPedestalOrange.SetActive(true);
+            _teleportPedestalBlue.SetActive(false);
             _teleportArchBlue.GetComponent<MeshRenderer>().enabled = false;
             _teleportArchOrange.GetComponent<MeshRenderer>().enabled = true;
             _teleportArchColorIsChanged = true;
@@ -98,7 +123,4 @@ public class TeleportRotator : MonoBehaviour
             _teleportArchColorIsChanged = false;
         }
     }
-    
-    
-    
 }
