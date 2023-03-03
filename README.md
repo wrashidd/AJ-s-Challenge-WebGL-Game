@@ -13,7 +13,8 @@ As a child, I spent countless hours staring 👀 at the cover image of Chip’s 
 
 
 
-![Atari_94089-1302_6](https://user-images.githubusercontent.com/35751462/222642444-3b5b41e6-02f3-4e25-94a8-7757afc9f24d.jpg)
+![Chip's_Challenge_cover](https://user-images.githubusercontent.com/35751462/222645418-96171007-b2fb-406a-a27d-3f336b5ba982.png)
+
 
 
 # Style
