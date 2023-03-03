@@ -26,19 +26,19 @@ In AJ's Challenge, I will create a surreal setting that evokes a sense of the bi
 # Design
 
 ![ajprocess_05](https://user-images.githubusercontent.com/35751462/222643859-c6590da6-3366-40ac-abd4-7bafeb47e254.jpg)
-I mostly use Houdini for creating 3D models for its procedural approach in design.
+**I mostly use Houdini for creating 3D models for its procedural approach in design.**
 
 
 ![ajprocess_06](https://user-images.githubusercontent.com/35751462/222643925-caa2b260-16c2-4631-9cdd-8098a5df1248.jpg)
-Ionic pedestal in the Secret Room is one of the classic archetectual elements that can represent knowledge and school.
+**Ionic pedestal in the Secret Room is one of the classic archetectual elements that can represent knowledge and school.**
 
 
 ![ajprocess_07](https://user-images.githubusercontent.com/35751462/222644127-8b6b3e5d-a905-450c-86eb-0891d9fddeea.jpg)
-Big Mouth or Gnower was designed in Houdini, Rigged and Animated in Autodesk Maya.
+**Big Mouth or Gnower was designed in Houdini, Rigged and Animated in Autodesk Maya.**
 
 
 ![ajprocess_01](https://user-images.githubusercontent.com/35751462/222644298-aa9475af-5272-4083-8bc7-010a9290a50e.jpg)
-AJ's Challange designed in Unity Game Engine
+**AJ's Challange designed in Unity Game Engine**
 
 # Final Level
 
