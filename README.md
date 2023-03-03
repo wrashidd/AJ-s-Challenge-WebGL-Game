@@ -1,3 +1,6 @@
+# AJ's Challenge 
+**3D puzzle-platformer WebGL game in Unity**
+
 ![ajprocess_03](https://user-images.githubusercontent.com/35751462/222638893-ceef1ad4-6cd1-4633-8a2e-59c4267405f2.jpg)
 
 # Story
