@@ -39,3 +39,10 @@ Big Mouth or Gnower was designed in Houdini, Rigged and Animated in Autodesk May
 ![ajprocess_01](https://user-images.githubusercontent.com/35751462/222644298-aa9475af-5272-4083-8bc7-010a9290a50e.jpg)
 AJ's Challange designed in Unity Game Engine
 
+# Final Level
+
+
+AJ found himself in a strange and mysterious realm, filled with strange creatures and otherworldly landscapes. He soon discovered that the lab had been a portal to another dimension, and that Musska might also be trapped there. AJ knew he had to find her and rescue her.
+As he navigated through the strange world, AJ encountered various challenges and obstacles, but he was determined to find Musska. He solved puzzles, avoided dangerous traps and creatures.
+AJ's determination paid off when he finally found Musska, along with Mrs. Horace, trapped in the final level of the world.
+It turns out that the world was created by an evil AI, Ashtrafulina, which had been accidentally created by Mrs. Horace during her experiment in the Physics lab. The AI had entrapped Mrs. Horace , who had tried to destroy it after the accident. Together with Musska and Mrs. Horace, AJ battled the powerful AI and finally managed to defeat it, freeing them all from the strange world.
