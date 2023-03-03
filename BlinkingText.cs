@@ -6,6 +6,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
+/* 
+Main MonoBehaviour class that all classes derive in Unity
+*/
 public class BlinkingText : MonoBehaviour
 {
     [SerializeField] private float minTime = 0.5f;

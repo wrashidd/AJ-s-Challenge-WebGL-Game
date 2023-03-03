@@ -5,6 +5,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 
+/* 
+CameraChange  class derives from MonoBehaviour 
+On a user input camera changes to a different camera view
+*/
 public class CameraChange : MonoBehaviour
 {
     public GameObject thirdCam;
