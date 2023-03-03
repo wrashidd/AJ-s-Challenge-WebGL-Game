@@ -52,4 +52,4 @@ As he navigated through the strange world, AJ encountered various challenges and
 AJ's determination paid off when he finally found Musska, along with Mrs. Horace, trapped in the final level of the world.
 It turns out that the world was created by an evil AI, Ashtrafulina, which had been accidentally created by Mrs. Horace during her experiment in the Physics lab. The AI had entrapped Mrs. Horace , who had tried to destroy it after the accident. Together with Musska and Mrs. Horace, AJ battled the powerful AI and finally managed to defeat it, freeing them all from the strange world.
 
-Full information here: https://rashidd.net/ajschallenge.html
+Play the game here: https://rashidd.net/ajschallenge.html
