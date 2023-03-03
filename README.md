@@ -1,3 +1,5 @@
+![ajprocess_03](https://user-images.githubusercontent.com/35751462/222638893-ceef1ad4-6cd1-4633-8a2e-59c4267405f2.jpg)
+
 # Story
 
 Once, in one of the schools of Jersey City, a girl named Musska suddenly vanished without a trace. Rumors began to spread among the students that she had been lost in a restricted area of the school, a mysterious and horrifying place known as the old Physics Lab. The lab had been abandoned for years, ever since a disastrous experiment by the Physics teacher, Mrs. Horace, who had also disappeared in the accident.
