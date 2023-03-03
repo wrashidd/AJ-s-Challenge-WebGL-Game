@@ -20,6 +20,7 @@ As a child, I spent countless hours staring 👀 at the cover image of Chip’s 
 
 
 
+
 # Style
 
 In AJ's Challenge, I will create a surreal setting that evokes a sense of the bizzare but without mature themes. I will use classical architectural forms to connect the surrealism with a school setting in the game. The level design will be simple and clear to aid in navigation and puzzle-solving. Additionally, I will avoid background environments around platforms to improve WebGL performance. My goal is to create a surreal yet accessible fun experience for players.
