@@ -3,14 +3,14 @@
 
 ![ajprocess_03](https://user-images.githubusercontent.com/35751462/222638893-ceef1ad4-6cd1-4633-8a2e-59c4267405f2.jpg)
 
-# Story
+## Story
 
 Once, in one of the schools of Jersey City, a girl named Musska suddenly vanished without a trace. Rumors began to spread among the students that she had been lost in a restricted area of the school, a mysterious and horrifying place known as the old Physics Lab. The lab had been abandoned for years, ever since a disastrous experiment by the Physics teacher, Mrs. Horace, who had also disappeared in the accident.
 
 Musska was not only beautiful but also incredibly intelligent, and her classmates, including AJ, all had secret crushes on her.
 Determined to find out what had happened to her, AJ spent several days sneaking into the closed area after classes, searching for any clues. One day, while exploring the abandoned lab, AJ accidentally stepped on a spot on the floor that teleported him to an unknown location...
 
-# Inspiration
+## Inspiration
 
 As a child, I spent countless hours staring 👀 at the cover image of Chip’s Challenge in Atari LYNX catalog magazine. Despite being lucky enough to own a LYNX 2 handheld console in Tajikistan, I never had the game itself. Instead, I would spend hours imagining what it would be like to play, based solely on the cartridge cover in the magazine. With those memories in mind, I attempted to recreate that feeling of longing and imagination in a retro puzzle-platformer game using Unity.
 
@@ -21,13 +21,13 @@ As a child, I spent countless hours staring 👀 at the cover image of Chip’s 
 
 
 
-# Style
+## Style
 
 In AJ's Challenge, I will create a surreal setting that evokes a sense of the bizzare but without mature themes. I will use classical architectural forms to connect the surrealism with a school setting in the game. The level design will be simple and clear to aid in navigation and puzzle-solving. Additionally, I will avoid background environments around platforms to improve WebGL performance. My goal is to create a surreal yet accessible fun experience for players.
 
 
 
-# Design
+## Design
 
 ![ajprocess_05](https://user-images.githubusercontent.com/35751462/222643859-c6590da6-3366-40ac-abd4-7bafeb47e254.jpg)
 **I mostly use Houdini for creating 3D models for its procedural approach in design.**
@@ -44,7 +44,7 @@ In AJ's Challenge, I will create a surreal setting that evokes a sense of the bi
 ![ajprocess_01](https://user-images.githubusercontent.com/35751462/222644298-aa9475af-5272-4083-8bc7-010a9290a50e.jpg)
 **AJ's Challange designed in Unity Game Engine**
 
-# Final Level
+## Final Level
 
 
 AJ found himself in a strange and mysterious realm, filled with strange creatures and otherworldly landscapes. He soon discovered that the lab had been a portal to another dimension, and that Musska might also be trapped there. AJ knew he had to find her and rescue her.
